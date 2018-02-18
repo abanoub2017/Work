@@ -1,0 +1,76 @@
+*{
+	margin:0px;
+	padding:0px
+}
+header{
+	background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,100,0.5) ),url('https://png.pngtree.com/thumb_back/fw800/back_pic/03/60/52/4557a5e3d99d462.jpg');
+	background-position:center;
+	background-size:cover;
+	height:100vh;
+	
+}
+.nav-bar{
+	height:80px;
+	background-color:rgd(0,0,0,0.5)
+}
+.logo{
+	height:60px;
+	margin:10px 50px;
+}
+.menu{
+	float:right;
+	margin:20px;
+	font-family:none;
+}
+.menu li{
+	display:inline-block;
+	margin:10px 5px
+}
+.menu li a{
+	padding: 5px 10px;
+	border:1px solid #FFF;
+	letter-spacing:2px;
+	font-family:sans-serif;
+	color:#FFF;
+	text-decoration:none;
+	transition:.4s
+	
+}
+.menu li a:hover{
+	background-color:#000;
+	color:#fff;
+	transition:.4s;
+	text-decoration:none
+}
+.wellcome{
+	color:#OOO;
+	position:relative;
+	text-align:center;
+	font-family:none;
+	top:160px
+}
+.wellcome h1{
+	font-size:45px;
+	margin:25px
+}
+.bn{
+	padding:7px 10px;
+	border:1px solid #FFF;
+	margin:5px;
+	font-size:18px;
+	letter-spacing:5px;
+	text-decoration:none
+}
+.bn1{
+	color:#000;
+	background-color:#FFF
+}
+.bn2{
+	color:#000
+}
+.bn2:hover{
+	transition:.4s;
+	background-color:#000;
+	color:#FFF;
+	text-decoration:none;
+}
