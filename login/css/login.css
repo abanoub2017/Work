@@ -1,0 +1,56 @@
+body{
+    background:url('../img/pexels-photo-877695(2).jpeg') no-repeat center center fixed;
+    background-size: cover;
+}
+
+.login{
+    
+  background-color:rgba(10,10,10,0.5);
+    margin: 100px auto;
+    height:500px;
+    width:500px;
+    overflow: hidden;
+     color: #DDD;
+    text-align: center
+}
+
+.login h1{
+    color:#FFF;
+    font-size:60px;
+     margin:50px 130px ;
+}
+input,button {
+   margin:15PX 70PX;
+    border:none;
+    color:#FFF;
+  background-color:rgba(50,50,50,0.7);
+    width:400px;
+    min-height: 20px;
+    transition: all .5s ease-in-out;
+}
+input:hove {
+  transform: scale(1.1,1.1)
+}
+button{
+    border-radius:20px;
+    transition: all .5s ease-in-out;
+    background-color:brown
+}
+
+button:hover{
+    transform: scale(1.1,1.1);
+}
+
+input[type="checkbox"]{
+ margin-left:-300px;
+    
+   
+}
+label{
+    margin-left: -250px;
+   font-size: 20px;
+}
+a{
+  text-decoration: none;
+    text-align: center;
+}
