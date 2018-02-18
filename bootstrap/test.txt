@@ -1,0 +1,478 @@
+<div class="container-fluid"> make contanier in All page
+<div class="container"> make contanier in center page 
+
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+
+Larg Screen    lg
+Medium Screen   md
+Small Screen    sm
+EXTRA Screen    xs
+
+*graid system = 12 unit 
+
+
+col-lg-4 
+col=column
+lg=large screen
+4=  4 unit from 12 unit 
+
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+
+**visible and hidden (hidden like 2a3lanat men ay screen ana 3aiz )
+ Hidden : hidden-(screen name)
+ hidden-lg 
+ hidden-md
+ hidden-sm 
+ hidden-xs 
+ in side class="col-lg-6 hidden-lg" like that
+ 
+ visible ll show: visible-(screen name)//
+ visible-lg 
+ visible-md
+ visible-sm 
+ visible-xs 
+ in side class="col-lg-6 visible-lg-block" like that
+ <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+
+*** colume Reset 
+ <Div class="clearfix"></div> 
+ Mmkn 2a3ml clear on any screen like//
+ <div clas="clearfix visibal-md"></div>
+ 
+ <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+
+****Column Offset 
+ col-(screen name )-offset-(col space you want) //
+ col-md-4 col-md-offset-4
+ col-sm-4 col-sm-offset-4
+ col-xs-4 col-xs-offset-4
+ 
+ <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+ *****Column Ordering (to replace the Div to other ) 
+ push (push div to replace other beside ues his space)
+ pull (pull div to replace other ues his space )
+ ex:
+ div1 class="col-lg-4 col-lg-push-8"
+ div1 class="col-md-4 col-md-push-8"
+ div1 class="col-sm-4 col-sm-push-8"
+ div1 class="col-xs-4 col-xs-push-8"
+ 
+ div2 class="col-lg-8 col-lg-pull-4"
+ div2 class="col-md-8 col-md-pull-4"
+ div2 class="col-sm-8 col-sm-pull-4"
+ div2 class="col-xm-8 col-xs-pull-4"
+ 
+to make other screen name not alwood that ues col-lg-push-0
+to make other screen name not alwood that ues col-lg-pull-0
+ex:
+
+  <div class="col-lg-4 col-lg-push-4  col-md-3 col-sm-6 col-xs-12">
+     <div class="bebo">
+       This Our Box#1 
+    </div>
+ </div>
+                
+ <div class="col-lg-4 col-lg-push-4 col-md-3 col-sm-6 col-xs-12">
+     <div class="bebo">
+       This Our Box#2 
+    </div>
+ </div>
+                
+ <div class="col-lg-4 col-lg-pull-8 col-md-3 col-sm-6 col-xs-12">
+    <div class="bebo">
+        This Our Box#3
+     </div>
+ </div>
+ 
+ <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+
+*****Column Nesting
+هو عمل grid system داخل الاساسي و عمل دفات فيها 
+to make Imge in div 7ata lw ms7tha kbyra ba3ml class asmo ="img-responsive center-block "
+(da 3alshn a5li el imge fy nos el div 7ata w sa8ert el sora fahm )
+
+!fy class asmo class=lead" 
+da 3alshn el pragraph el 5at bta3o bs 
+ Ex:
+ 
+ /*start Nesting*/
+ 
+ <div class="container">
+            <div class="row">
+                
+                <div class="col-lg-12">
+                   <div class="row">
+                       
+                       <div class="col-lg-4 col-sm-6 col-xs-12 ">
+                           <img class="img-responsive center-block" src="imgs/laptop2.jpg">
+                       </div>
+                        
+                       <div class="col-lg-8 col-sm-6 col-xs-12">
+                           <h1>Paragraphs</h1>
+                           <p class="lead">Before you can begin to determine what the composition of a particular paragraph will be, you must first decide on an argument and a working thesis statement for your paper. What is the most important idea that you are trying to convey to your reader? The information in each paragraph must be related to that idea. In other words, your paragraphs should remind your reader that there is a recurrent relationship between your thesis and the information in each paragraph. A working thesis functions like a seed from which your paper, and your ideas, will grow. The whole process is an organic one—a natural progression from a seed to a full-blown paper where there are direct, familial relationships between all of the ideas in the paper. </p>
+                       </div>
+                   </div>
+                </div>
+                
+               <div class="col-lg-4 col-sm-6 col-xs-12">
+                   <div class="bebo">
+                        This The Div
+                   </div>
+                </div>
+                
+                <div class="col-lg-4 col-sm-6 col-xs-12">
+                   <div class="bebo">
+                        This The Div
+                   </div>
+                </div>
+                
+                <div class="col-lg-4 col-sm-6 col-xs-12">
+                   <div class="bebo">
+                        This The Div
+                   </div>
+                </div>
+                
+                  
+               <div class="col-lg-4 col-sm-6 col-xs-12">
+                   <div class="bebo">
+                   This The Div
+
+                   </div>
+                </div>
+                
+                <div class="col-lg-4 col-sm-6 col-xs-12">
+                   <div class="bebo">
+                      This The Div
+                   </div>
+                </div>
+                
+                <div class="col-lg-4 col-sm-6 col-xs-12">
+                   <div class="bebo">
+                       This The Div
+                   </div>
+                </div>
+                
+                  
+               <div class="col-lg-4 col-sm-6 col-xs-12">
+                   <div class="bebo">
+                       This The Div
+                   </div>
+                </div>
+                
+                <div class="col-lg-4 col-sm-6 col-xs-12">
+                   <div class="bebo">
+                       This The Div
+                   </div>
+                </div>
+                
+                <div class="col-lg-4 col-sm-6 col-xs-12">
+                   <div class="bebo">
+                       This The Div
+                   </div>
+                </div>
+                
+                
+                
+            </div>
+        </div>
+        
+    /*End Nesting*/
+    
+ <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+   
+    ***** NavBar
+     >> navbar-inverse
+     <nav class="navbar navbar-default"> whit color.
+     -- navbar-inverse (Da li 3aks Color bta3 el Navbar)
+     like that --<nav class="navbar navbar-default navbar-inverse "> be black color next put inverse
+    
+    >>>>>>>>>>>>>>>>> navbar-fixed-top
+    Note: when make fixed make in body css 
+    padding -top:70px;
+    <nav class="navbar navbar-default navbar-fixed-top"> make a navbar in top page when make a scroll page 
+    <nav class="navbar navbar-default navbar-fixed-bottom"> make a navbar in bottom page when make a scroll page 
+    
+ 
+  >>>>>>>>>>>>>>>>>>> <div class="navbar-header">
+      
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span> ---
+        <span class="icon-bar"></span> ---   دي العامله ال 3 شرط في الموبايل تفتح الناف بار ممكن اشلهم و احط صوره او لوجو اي حاجه تانيه 
+        <span class="icon-bar"></span> ---
+      </button>
+        
+      <a class="navbar-brand" href="#">Brand</a>
+    </div>      
+    
+    Note:
+           <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+             ال اي دي دا امر بطلب منه لما ادوس عليه يفتح حاجه معينه دا في الزرار 
+              data-target="#bs-example-navbar-collapse-1"
+             
+    
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                           هنا بقي الحاجه ال هيفتحها الزرار ال اي دي ده تمام يعني لو غيرت الادي دا هنا الزارا مش هفتح حاجه علشان مغيرتوش في الزارا بردو لازم اغير في الاتينن 
+                           
+    >>>>> Navbar-right  , Navbar-left  دا علشان لو عايز اخلي الناف بار سواء شمال او يمين بس 
+    
+    
+    
+    
+    
+    
+    
+    
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+
+*** Carousel (slide)
+    
+    < Start Section About >>>
+    
+
+    class=about 
+    class=text-center
+    
+    
+    Ues <section class="about">
+       <div class="Contanier">
+    
+    <h1>hello <spa>bebo</span></h1>
+    <p class= lead></p>
+    </div>
+    </section>
+    
+    <End Section About>>>
+    
+    
+    
+    <Start Section Featues>>> (المميزات)
+    
+    class="features"
+    
+    
+    <section class=""features>
+     <div class="contanier">
+      <h1> Features</h1>
+      <div class="row">
+        <div class="col-lg-3">
+        
+        
+      <div class="feat">
+         <span class="icon"></span>
+         <h3></h3>
+         <p></p>
+      </div>
+      
+      
+      
+      </div>
+    </div>
+    </div>
+    </section>
+    <End Section Features>>>
+    
+    
+    
+   /* Start Section Price Table*/
+ 
+ 
+       <div class="price-table text-center">
+         <div class="container">
+          <h1>Our Amazing Price</h1>
+          
+        <div class="row">
+            
+          <div class="col-md-3 col-sm-6 col-xs-12">
+              <div class="price-box">
+             <h2>Price #1</h2>
+                  <p>$50</p>
+                  <ul class="list-unstyled"> Note : Ues List-unstyled In ul 
+                      <li>Space:30GB</li>
+                      <li>Emails:20</li>
+                      <li>Ips:2 Ip</li>
+                      <li>Database:10</li>
+                      <li>Flp Accounts:5</li>
+                  </ul>
+                  <a href="#" class="btn btn-primary">Oder Now</a>
+              </div>
+          </div>
+          
+    </div>
+  </div>
+</div>
+
+
+New Note In Part 2:
+
+<div class="col-md-3 col-sm-6 col-xs-12">
+              <div class="price-box">
+             <h2 class="text-primary">Hosting</h2> Note Class="text-primary" color 
+                  <p class="center-block">$50</p> Note Class="Center-block" center elemnt
+                  <ul class="list-unstyled">
+                      <li>Space:30GB</li>
+                      <li>Emails:20</li>
+                      <li>Ips:2 Ip</li>
+                      <li>Database:10</li>
+                      <li>Flp Accounts:5</li>
+                  </ul>
+                  <a href="#" class="btn btn-primary">Oder Now</a>
+              </div>
+          </div>
+          
+          Note Css2:
+          .price-table .price-box p{
+    font-size:35px;
+    font-weight: bold;
+    color: #666;
+    height: 100px;
+    width: 100px;
+    line-height: 100px;
+    background-color: #f3f3f3;
+    border-radius: 50%;
+    -webkit-transition-duration:0.7s;
+    -moz-transition-duration:0.7s;
+    -o-transition-duration:0.7s;
+     transition-duration:0.7s;
+    border: 2px solid #FFF;
+    
+}
+.price-table .price-box p:hover{
+    -webkit-transform:scale(1.1,1.1) rotate(356deg);
+    -moz-transform:scale(1.1,1.1) rotate(356deg);
+    -o-transform:scale(1.1,1.1) rotate(356deg);
+    transform:scale(1.1,1.1) rotate(356deg);
+    border: 2px solid #DFDFDF;
+    
+   /* End Section Price Table*/
+    
+    
+    !-- Start Section Subscribe -->  
+        
+    <section class="subscribe text-center">
+        <div class="container">
+            
+        <h1>Keep In Touch</h1>
+         <p class="lead">Sign Up Newsletter Dont Worry About Spam We Hate it Too</p>
+            
+            <form class=" form-inline">
+                <input class="form-control" type="text" name="subscribe" placeholder="">
+                <button class="btn btn-danger">Subscribe</button>
+            </form>
+            
+        </div>
+        </section>
+        
+        Note: Class:form-inline (make it in line )
+              class:form-block (make it in block)
+              class: inpput from-control
+              class: inpput input-lg
+              class: buttum btn-lg
+             <i class="fa fa-edit fa-lg"></i> Subscribe
+                      
+       <!-- End Section Subscribe --> 
+       
+       
+    
+        
+       <!-- Start Section Statistic -->  الاحصائيات  
+        
+           <section class="statistic text-center">
+     <div class="data">
+          <div class="container">
+             <h1>Our Main Statistic</h1>
+              <div class="row">
+                  
+                  <div class="col-lg-3 col-sm-6">
+                      <div class="stats">
+                         <i class="fa fa-users fa-5x"></i>
+                          <p>9,550</p>
+                          <span>Satisfied Users</span>
+                      </div>
+                  </div>
+        
+       <!-- End Section Statistic -->  
+
+       
+       
+             <!-- Start Section Our Skills -->  
+        <section class="our-skills">
+            <div class="container">
+                <h1>Our Skills</h1>
+                <div class="row">
+                    
+                    <!-- Start Progress Skills-->
+                    
+                    <div class="col-md-5">
+                        <div class="skills-progress">
+                            <div class="progress">
+                                
+                                rest
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- End Progress Skills-->
+                      
+                    <!-- Start Team Info-->
+                    
+                    <div class="col-md-6 col-md-offset-1">
+                        <div class="skills-progress">
+                            team
+                        </div>
+                    </div>
+                    
+                    <!-- End Team Info-->
+                    
+                </div>
+            </div>
+        </section>
+        
+        
+        
+        
+        
+        
+         Note: Class="progress" (Make Progress in Web)
+         class=:"col-md-6 col-md-offset-1"
+       <!-- End Section Our Skills -->    
+        
+       
+       /* Start Media Query */
+
+/* Samrt Phones And Tablets */
+
+@media (max-width:767px)
+{
+    
+}
+
+/* Small Screen */
+
+@media(min-width:768px) and (max-width:991px)
+{
+    
+}
+
+/* medium Screen */
+
+@media(min-width:992px) and (max-width:1199px)
+{
+    
+}
+
+/* large Screen */
+
+@media(min-width:1200px)
+{
+    
+}
+
+/* End Media Query */
+
+       
+       
+       
+       
+        
+    

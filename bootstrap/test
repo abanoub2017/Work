@@ -1,0 +1,12 @@
+Larg Screen    lg
+Medium Screen   md
+Small Screen    sm
+EXTRA Screen    xs
+
+graid system = 12 unit 
+
+
+col-lg-4 
+col=column
+lg=large screen
+4=  4 unit from 12 unit 
