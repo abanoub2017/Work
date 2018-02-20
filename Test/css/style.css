@@ -1,0 +1,217 @@
+
+h1,h2,h3,h4,h5,li,p,.lead{
+    font-family: 'PT Sans', sans-serif;
+}
+/********** start section-top ***************/
+
+.section-top{ background-color: #000;}
+
+.section-top .social{ padding-top: 10px;}
+
+.section-top .social-bar{overflow: hidden;}
+
+.section-top .social-bar li a{
+    float: left;
+    padding-left: 10px;
+    color: #FFF;
+    transition: all .3s ease-in-out;
+}
+.section-top .social-bar li a:hover{
+    color:#7FC699;
+}
+.section-top .call-emial{
+    float: right;
+    margin-top: -30px;
+}
+.section-top .call-emial .contact div {
+    display: inline-block;
+    padding-left:15px;
+}
+.section-top .call-emial .contact div span{
+    padding-right: 5px;
+}
+.section-top .call-emial .contact div a{
+    color: #FFF;
+    text-decoration: none;
+    transition: all .3s ease-in-out;
+}
+.section-top .call-emial .contact div a:hover{
+    color: #7FC699;
+}
+
+/* start Navbar*/
+
+.navbar-default{
+    background-color: transparent;
+    border-color:transparent;
+    padding-top: 20px;
+}
+
+    /* Barnd*/
+.navbar-default .navbar-brand{
+    color: #000;
+}
+.navbar-brand{
+    font-size: 25px;
+    padding-left: 48px;
+}
+.navbar-brand span{
+    color:#7FC699;
+}
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus{
+    color:#7FC699;
+    background-color: transparent;
+}
+.navbar-default .navbar-nav > li > a{
+    font-size: 16px;
+    font-weight: 600;
+    color: #000;
+    transition: all .2s ease-in-out;
+}
+.navbar-default .navbar-nav > li > a:hover{
+    color:#7FC699; 
+}
+
+/* button*/
+button, html input[type="button"],
+input[type="reset"], 
+input[type="submit"]{
+    background-color: transparent;
+    border: 1px solid #7FC699;
+    color: #7FC699;
+    border-radius: 42%;
+    width: 100px;
+    height: 35px;
+    margin-top: 10px;
+    transition: all .5s ease-in-out;
+}
+
+button:hover{
+    color:#FFF;
+    background-color: #40C16E;
+}
+/* End Navbar*/
+
+
+/* Start Home Page Style */
+.home-page {
+    background: url('../img/homebg.jpg') no-repeat center center ;
+    background-size: cover;
+    min-height: 700px;
+    background-color:rgba(0,0,0,0.5);
+}
+.home-page .home-page-style{
+    background-color:rgba(0,0,0,0.3);
+    min-height: 700px;
+}
+.home-page .home-page-style h1{
+    color: #FFF;
+    padding-top: 15%;
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+.home-page .home-page-style p{
+    color: #FFF;
+    letter-spacing: 1px;
+    word-spacing: 1.5px;
+    word-wrap:normal;
+    padding-bottom: 100px;
+}
+.home-page .home-page-style  .form-control {
+    border-radius: 0;
+    margin-right: -5px;
+      width: 386px;
+    height: 52px;
+
+}
+.home-page .home-page-style .btn {
+    border-radius: 0;
+    height: 52px;
+    margin-top: 0px;
+    width: 150px;
+    background-color: #82ca9c;
+    color: #FFF;
+    font-size: 15px;
+}
+.home-page .home-page-style .btn:hover{
+    background-color: rgba(11, 28, 16,.5);
+   
+}
+ /* Start product */
+.footer .footer-list{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: #DDD;
+   min-height: 400px;
+}
+.footer .content{
+    margin-top: 60px;
+}
+.footer .content h4{
+    margin-bottom: 20px;
+    font-weight: bold
+}
+.footer .content ul li{
+    line-height: 2;
+}
+.footer .content p{
+    line-height: 1.5;
+    
+}
+.footer .content .btn{
+    color: #FFF;
+    background: #82ca9c;
+    border-radius: 0;
+    margin-top: 5px;
+    margin-left: 40px;
+}
+.footer .copyright{
+    background:#333 ;
+    color:#AAA;
+    padding:15px 0;
+   
+    font-size: 18px;
+}
+.footer .copyright span{
+    color:#7FC699;
+}
+ /* End product */
+
+/* Start product */
+
+.product {
+    padding-bottom: 70px;
+    padding-top: 200px;
+    overflow: hidden;
+}
+.product .pro{
+    
+    margin-top: 110px;
+}
+.product .pro-img{
+   
+    margin-bottom: 50px;
+  
+}
+.product .pro-img img{
+  
+    margin-bottom: 50px;
+    margin-top: -90px;
+  
+}
+.product .product-info{
+   
+}
+.product .product-info h1{
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+.product .product-info p{
+    font-size:20px;
+    color: #555;
+    margin-bottom: 10px;
+}
+
+/* End product */
