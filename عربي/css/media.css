@@ -1,0 +1,77 @@
+
+
+/* Samrt Phones And Tablets */
+
+@media (max-width:767px)
+{
+    .navbar  {
+       top:6%;
+    margin-top: 0;
+     background-color: rgba(0,0,0,0);
+        
+    }
+    .navbar-toggle{
+       background-color: #f00; 
+    }
+    .container>.navbar-header,
+    .container-fluid>.navbar-header,
+    .container>.navbar-collapse,
+    .container-fluid>.navbar-collapse{
+        background-color: rgba(0,0,0,.4);
+        margin-top: -10px;
+    padding-top: 10px;
+        width: 100%;
+    }
+    .navbar .navbar-brand img{
+        height:30px;
+        width: 130px;
+    }
+    nav.navbar.navbar-fixed-top.shrink a:hover{
+        background: transparent;
+    
+        color: #e43f21;
+    }
+    .navbar-toggle .icon-bar{
+      background: #fff;
+
+    }
+    
+    .navbar-toggle .icon-bar+.icon-bar{
+        background: #fff;
+    }
+    .product .pro-img img{
+        margin: auto;
+    }
+}
+
+/* Small Screen */
+
+@media(min-width:768px) and (max-width:991px)
+{
+    .navbar .navbar-nav > li > a{
+        padding-left: 13px;
+    }
+    
+    .navbar .navbar-brand{
+        margin-right: 242px;
+    }
+    .navbar .navbar-nav{
+            margin-right: 116px;
+    }
+}
+
+/* medium Screen */
+
+@media(min-width:992px) and (max-width:1199px)
+{
+    
+}
+
+/* large Screen */
+
+@media(min-width:1200px)
+{
+    
+}
+
+
